@@ -1,0 +1,126 @@
+@-moz-document domain("github.com") {
+:root {
+    --small-primary-neomorphisim: 5px 5px 10px #2c6a30,
+             -5px -5px 10px #3c9042;
+    --small-neomorphisim: 5px 5px 10px #1d2127,
+             -5px -5px 10px #272d35;
+    --color-bg-canvas-inset: #22272e !important;
+    --color-text-primary: white !important;
+    --color-bg-primary: #22272e !important;
+    --color-btn-hover-bg: #22272e !important;
+    --color-bg-secondary: #22272e !important;
+    --color-bg-canvas: #22272e !important;
+    --color-btn-text: white;
+    --color-topic-tag-hover-bg: none !important;
+    --color-btn-bg: #22272e !important;
+    --color-header-bg: #22272e !important;
+    --color-bg-overlay:#22272e !important;
+}
+
+.application-main {
+    background-color: var(--color-bg-primary) !important;
+}
+
+.border, .dropdown-menu, .form-select {
+    box-shadow: var(--small-neomorphisim) !important;
+    border: none !important;
+}
+
+.pagehead-actions li {
+    box-shadow: var(--small-neomorphisim) !important;
+}
+
+.btn-primary {
+    background-color: var(--color-btn-primary-bg);
+}
+
+.Box, .btn, .social-count, .subnav-links, .subnav-search, .input-block, .auto-search-input, .tabnav-tab.selected, .tabnav-tab[aria-current]:not([aria-current="false"]), .tabnav-tab[aria-selected="true"], .topic-tag, .UnderlineNav-item.selected, .UnderlineNav-item[aria-current]:not([aria-current="false"]), .UnderlineNav-item[role="tab"][aria-selected="true"], .color-shadow-medium, .CircleBadge, .menu, .form-control, .avatar {
+    background: #22272e;
+    box-shadow: var(--small-neomorphisim) !important;
+    border: none !important;
+}
+
+.project-column, .menu {
+    background: none;
+    border: none !important;
+}
+
+.project-column {
+    scrollbar-color: white rgba(0,0,0,0);
+    scrollbar-width: thin;
+}
+
+.project-card:first-child {
+    margin-top: 8px !important;
+}
+
+.project-card {
+    margin-bottom: 16px !important;
+}
+
+.issue-card {
+    border: none !important;
+    box-shadow: var(--small-neomorphisim) !important;
+    background: #22272e;
+}
+
+.Box-body, .Box-header, .subnav-item, .subnav-search, .form-control, .color-bg-tertiary {
+    border-bottom: none !important;
+    border: none !important;
+    background: none !important;
+}
+
+.js-yearly-contributions div {
+    margin-top: 12px;
+}
+
+.subnav-search, .js-yearly-contributions div, .auto-search-group {
+    margin-left: 12px !important;
+    border-radius: 6px !important;
+}
+
+.border-bottom, .tabnav, .menu-item {
+    border-bottom: none !important;
+}
+
+.tabnav, .UnderlineNav {
+    box-shadow: inset 0px -10px 6px -5px #272d35;
+}
+
+.application-main main > div {
+    background: #22272e !important;
+}
+
+.topic-tag {
+    margin-left: 8px;
+}
+
+.js-responsive-underlinenav-item {
+    margin-top: 8px;
+}
+
+.UnderlineNav-item {
+    border-radius: 6px 6px 0 0;
+}
+
+.Box-row, .border-top, .dropdown-divide, .Box-footer {
+    border-top: none !important;
+}
+
+.color-shadow-extra-large {
+    box-shadow:  10px 10px 20px #1d2127,
+             -10px -10px 20px #272d35 !important;
+}
+
+.Box {
+    margin-bottom: 8px;
+}
+
+.avatar {
+    border: none;
+}
+
+.Box-row--gray, .WorkflowCard {
+    background: none;
+}
+}
